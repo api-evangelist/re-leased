@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Re-Leased is a company surfaced via the API Evangelist harvest backlog (source: capability-gaps) and added to the network as a stub for full-pipeline profiling.
-- https://www.re-leased.com/
+Re-Leased provides comprehensive commercial property management software for owners, investors, and property management companies. Their platform offers lease management, property operations, maintenance, arrears and credit control, budgeting, reporting, and integrated accounting. Targeting multifamily, office, retail, industrial, government, and nonprofit sectors, Re-Leased delivers SaaS solutions that streamline real‑estate portfolio management, tenant portals, and AI‑driven analytics, supporting large and local portfolios worldwide.
+
+**Areas:** Real Estate · Property Management · SaaS · Commercial Software · Re-Leased
+
+## Re-Leased on APIs.io
+
+Everything profiled for Re-Leased is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/re-leased/](https://apis.io/providers/re-leased/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Re-Leased API](https://apis.io/apis/re-leased/re-leased-api-2/) — Re-Leased provides a robust API for property management, lease management, operations, and accounting integrations.
+- [Re-Leased API](https://apis.io/apis/re-leased/re-leased-api/) — Re-Leased API as documented publicly: 64 operations. Contract generated from the documentation by API Evangelist (2026-11-09); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiAccountsResponse](https://apis.io/schemas/re-leased/re-leased-get-api-accounts-response/)
+- [GetApiContactsResponse](https://apis.io/schemas/re-leased/re-leased-get-api-contacts-response/)
+- [GetApiCreditNotesIdResponse](https://apis.io/schemas/re-leased/re-leased-get-api-credit-notes-id-response/)
+- [GetApiDisbursementProfilesResponse](https://apis.io/schemas/re-leased/re-leased-get-api-disbursement-profiles-response/)
+- [GetApiInsurancePoliciesIdAttachmentsAttachmentidDownloadResp](https://apis.io/schemas/re-leased/re-leased-get-api-insurance-policies-id-attachments-attachmentid-download-resp/)
+- [GetApiInvoicesIdResponse](https://apis.io/schemas/re-leased/re-leased-get-api-invoices-id-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Re Leased Context](https://apis.io/jsonld/re-leased/re-leased-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Re-Leased API Rules](https://apis.io/rules/re-leased/re-leased-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Re-Leased Domain Security](https://apis.io/security/re-leased/re-leased-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.re-leased.com/)
+- [Documentation](https://www.re-leased.com/product/apis)
+- [API reference](https://api.re-leased.com/swagger/ui/index)
+- [Pricing](https://www.re-leased.com/en-us/pricing)
+- [Support](https://www.re-leased.com/resources/support)
+- [Blog](https://www.re-leased.com/blog)
+- [Security](https://www.re-leased.com/product/security)
+- [Trust centre](http://trust.re-leased.com/)
+- [Terms of service](https://www.re-leased.com/terms)
+- [Privacy policy](https://www.re-leased.com/privacy)
+- [Status](https://status.re-leased.com/)
+
+## API Evangelist rating
+
+**Kin Score 44.2** — developing · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 43.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 39.5 |
+
+**Agent readiness 29.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/re-leased/](https://apis.io/providers/re-leased/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Re-Leased: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/re-leased/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
